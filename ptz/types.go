@@ -252,8 +252,8 @@ type ModifyPresetTourResponse struct {
 type OperatePresetTour struct {
 	XMLName         string                       `xml:"tptz:OperatePresetTour"`
 	ProfileToken    onvif.ReferenceToken         `xml:"tptz:ProfileToken"`
-	PresetTourToken onvif.ReferenceToken         `xml:"onvif:PresetTourToken"`
-	Operation       onvif.PTZPresetTourOperation `xml:"onvif:Operation"`
+	PresetTourToken onvif.ReferenceToken         `xml:"tt:PresetTourToken"`
+	Operation       onvif.PTZPresetTourOperation `xml:"tt:Operation"`
 }
 
 type OperatePresetTourResponse struct {
